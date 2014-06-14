@@ -3,5 +3,5 @@ notes
 
 universal notes
 
-    programming languages to master:
+    master these programming languages:
         C, C++, bash, python;

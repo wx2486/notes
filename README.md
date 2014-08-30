@@ -1,13 +1,1 @@
-notes
-=====
-
-universal notes
-
-    master these programming languages:
-        C, C++, bash, python;
-
-    master these tools:
-        emacs, regex;
-
-    be familiar with these tools:
-        git;
+这个repo用于存储加密了的私人笔记。

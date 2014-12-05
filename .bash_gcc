@@ -1,0 +1,15 @@
+# gcc family
+
+function wxgc() { gcc $@; }
+function wxgcr() { gcc $@ && ./a.out; }
+function wxgcrf() { gcc $@ && ./a.out < t.in > t.out; }
+
+# g++ 11 family
+function wxg() { g++ -std=c++11 $@; }
+function wxgr() { g++ -std=c++11 $@ && ./a.out; }
+function wxgrf() { g++ -std=c++11 $@ && ./a.out < t.in > t.out; }
+
+# g++ family
+function wxgp() { g++ $@; }
+function wxgpr() { g++ $@ && ./a.out; }
+function wxgprf() { g++ $@ && ./a.out < t.in > t.out; }

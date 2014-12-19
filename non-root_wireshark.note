@@ -3,9 +3,9 @@ Run wireshark as non-root user, cannot see/capture eth0.
 
 Solution:
 sudo dpkg-reconfigure wireshark-common
-# chose yes to enable non-root user capture
+Chose yes to enable non-root user capture.
 sudo adduser <username> wireshark
-# reboot
+Reboot.
 
 Related doc:
 /usr/share/doc/wireshark-common/README.Debian

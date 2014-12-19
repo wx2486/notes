@@ -1,0 +1,28 @@
+Steps:
+1. Install sogou pinyin in Ubuntu.
+
+Download sogou pinyin for Linux from http://pinyin.sogou.com/linux/
+Open the .deb file with Ubuntu Software Center.
+Install it.
+Go to System Settings -> Language Support -> Language, change "Keyboard input method system" to "fcitx".
+Open Fcitx Configuration. You can find it by super key -> find or click fcitx icon in the task bar.
+Add sogou pinyin into fcitx.
+# Maybe it needs a reboot to take effect.
+# Another system configuration may be related:
+# Go to System Settings -> Software & Updates -> Other Software.
+# Check on "Canonical Partners" and "Canonical Partners (Source Code)".
+
+2. Bypass Chinese input bug in emacs.
+
+Open /etc/default/locale and add this line:
+LC_CTYPE=zh_CN.UTF-8
+Reboot.
+
+Resources:
+http://pinyin.sogou.com/
+https://fcitx-im.org/wiki/FAQ
+https://help.ubuntu.com/community/Locale
+
+System info:
+Ubuntu 14.04 x86_64
+Fri, 19 Dec 2014 03:10:11 +0000

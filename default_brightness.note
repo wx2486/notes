@@ -1,0 +1,16 @@
+Steps:
+1. Change default screen brightness value from 100 to another fixed value.
+
+Write two lines into /etc/lightdm/lightdm.conf:
+[SeatDefaults]
+greeter-setup-script=xbacklight -set 30
+
+Resources:
+http://askubuntu.com/questions/66751/how-do-i-set-default-display-brightness
+http://www.freedesktop.org/wiki/Software/LightDM/
+http://www.freedesktop.org/wiki/Software/LightDM/CommonConfiguration/
+/usr/share/lightdm/lightdm.conf.d/*.conf
+
+System info:
+Ubuntu 14.04 x86_64
+lightdm 1.10.3
